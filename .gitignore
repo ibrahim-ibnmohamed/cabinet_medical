@@ -1,4 +1,3 @@
-
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -18,3 +17,21 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+# Symfony 2/3 legacy (si jamais tu veux les garder)
+# /var/cache/*
+# /var/logs/*
+# /var/sessions/*
+# !var/cache/.gitkeep
+# !var/logs/.gitkeep
+# !var/sessions/.gitkeep
+
+# Autres dossiers ignorés utiles
+/web/bundles/
+/web/uploads/
+/build/
+/composer.phar
+/.web-server-pid
+
+# Fichiers temporaires ou de sauvegarde
+**/Entity/*~
